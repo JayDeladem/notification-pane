@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(208, 223, 223);
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+background-color: white;
+border-radius: 10px;
+padding:20px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top:30px;
+margin-bottom:30px;
+}
+
+.head{
+display:flex;
+align-items: first baseline;
+gap:20px;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.card{
+background-color: azure;
+height:60px;
+padding:8px;
+border-radius: 10px;
+margin-bottom:10px;
+display:flex;
+gap:10px;
+}
+
+.color{
+color:rgb(15, 19, 237);
+font-weight: bold;
+}
+
+.bold{
+font-weight: bold;
+color:black;
+}
+
+.grey{
+    color:deep grey;
+    font-weight: bold;
+}
+
+.message-card{
+    height:70px;
+    width:550px;
+    padding:8px;
+    border-radius:8px;
+    padding-bottom:16px;
+    border:solid thin grey;
+    margin-left:70px;
+}
+
+.not-3{
+    height:20px;
+    background-color: rgb(18, 18, 201);
+    color:white;
+    text-align: center;
+    border-radius: 4px;
+    padding:2px;
+    font-size: 16px;
+}
+
+.red-dot{
+    height:6px;
+    width:6px;
+    background-color:red;
+    border-radius: 100%;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+img{
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    padding:5px;
+}
+
+.plain{
+    background-color:white;
+height:60px;
+padding:8px;
+border-radius: 10px;
+margin-bottom:10px;
+display:flex;
+gap:10px;
+}
+
+.square-image{
+    background-image: url(/img/lady2.jpg);
+    padding:5px; 
+    background-position: center;
+    background-size: cover;
+    height:30px;
+    width:35px;
+    position:relative;
+    left:155px;
+    border-radius: 6px;
+    top:10px;
+}
